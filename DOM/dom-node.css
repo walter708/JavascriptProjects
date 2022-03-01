@@ -1,0 +1,51 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: inherit;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    box-sizing: border-box;
+    background-color: darkgray;
+    margin: 3rem 7rem;
+}
+
+h1 {
+    text-transform: capitalize;
+    font-weight: 400;
+    color: #fff;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+}
+
+h2 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+}
+
+#resultContainer {
+    background-color: #fff;
+    padding: 2rem;
+}
+
+#myButton {
+    background: none;
+    border: none;
+    padding: 2rem 4rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: darksalmon;
+    margin-bottom: 2rem;
+}
+
+.selected {
+    border-bottom: #000 0.5rem solid;
+    padding: 0 0 0;
+}
